@@ -1,0 +1,181 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    font-size: 9vw;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 0.8;
+    opacity: 0.6;
+    margin-left: 30px;
+}
+#heading #secondh1{
+    margin-left: 165px;
+}
+.blockText{
+    width: fit-content;
+}
+.blockText h5{
+    text-align: right;
+    font-size:16px ;
+}
+
+#rightHeading{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#rightHeading h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+}
+
+#heroFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding: 0 2vw;
+}
+#heroFooter a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+#iconSet{
+    display: flex;
+    gap: 5px;
+}
+#heroFooter .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+#secondPage{
+    color: #fff;
+    width: 100%;
+    background-color: black;
+    padding-top: 100px;
+    height: 100vh;
+    padding-right: 10vw;
+}
+
+.element{
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 2vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    position: relative;
+} 
+.element h1{
+    text-transform: uppercase;
+    font-size: 7vw;
+    opacity: 0.7;
+}
+.elementLast{
+    border-bottom: 1px solid #888;
+}
+.element img{
+    display: none;
+    position: absolute;
+    height: 130%;
+    width: 320px;
+    z-index: 999;
+}
+
+
+
+#aboutMe{
+    width: 100%;
+    background-color: black;
+    padding: 10vw 10vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+    padding-left: 40vw;
+}
+#aboutMe img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    
+}
+#textAbout{
+    width: 32rem;
+    text-align: justify;
+}
+
+#textAbout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+#textAbout p{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#textAbout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
