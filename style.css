@@ -179,3 +179,44 @@ html,body{
     font-size: 12px;
 }
 
+#sub{
+    color: #fff;
+    padding: 20px 30px;
+    background-color: black;
+    padding-bottom: 3vw;
+}
+
+#sub h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#sub h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px ;
+    background-color: black;
+    color: #fff;
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footerRight{
+    display: flex;
+    gap: 20px;
+}
+#footerLeft{
+    display: flex;
+    gap: 20px;
+}
